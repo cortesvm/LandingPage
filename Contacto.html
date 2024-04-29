@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   
+<title>Landing Page Web</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<link rel="icon" type="png" href="img/SP-Studio (1).png">
+<body>
+   <section>
+    <header>
+        <a href="indext.html" class="logo"> Cortes Villena Martinez</a>
+        <ul class="navbar">
+            <li>
+                <a href="QuienSoy.html" target="_blank">Quien soy</a>
+            </li>
+            <li>
+                <a a href="CV.html" target="_blank">CV</a>
+            </li>
+            <li>
+                <a href="proyecto.html" target="_blank">Proyectos destacados</a>
+            </li>
+            <li>
+                <a href="Contacto.html" target="_blank">Contacto</a>
+            </li>
+        </ul>
+    </header>
+   
+    <h1>¿En qué puedo ayudarte?</h1>
+    <fieldset class="estiloformulario" > 
+        <h2>Datos Personales:</h2>
+            <form name="formulario" method="post" action="mailto:raul.rodriguez@proeducaglobal.com" >
+                <br>Nombre: <input type="text" placeholder="Indica tu nombre de pila." class="huecosuno" required>
+                <br>Apellidos: <input type="text" placeholder="Indica tus apellidos." class="huecosuno" required>
+                <br>Dirección Postal: <input type="text" placeholder="(Calle, Número, Piso, Código Postal, Ciudad)"  class="huecosuno">
+                <br>Introduzca su correo:<input type="email" name="mail" placeholder="cortes@unir.fp" required class="huecosuno" required> <p></p>
+        <br>
+            </form>
+        <hr>
+        <h3>Sexo</h3>
+            <input type="radio" name="FP" id="" value="ASIR">Mujer
+            <input type="radio" name="FP" id="" value="DAM">Hombre
+            <input type="radio" name="FP" id="" value="DAW">Prefiero no decirlo<p></p>
+        <br>
+        <hr>
+        <h3>Fecha de nacimiento:</h3> 
+            <input type="date" name="dia" class="huecos" min="1992-02-07" max="2024-05-05" step="1"><p></p>
+            <br>
+       
+        <h3>Comentarios:</h3> 
+            <textarea name="Dejar un comentario:" class="huecocomentario" cols="30" rows="10" minlength="5" maxlength="240" placeholder="Escribe aquí tu opinión..."></textarea>
+            <br>
+        <input type="submit" value="Enviar" class="huecosenvio"> 
+        <input type="reset" value="Eliminar" class="huecosenvio"> 
+        <input type="submit" value="Adjuntar Archivos" class="huecosenvio">
+        <form name="formulario" method="post" action="mailto:cortesvm92@gmail.com"></form>
+    </fieldset>
+
+
+    <div class="copyright">
+      <p>&copy;Web Personal creada para la asignatura de Lenguaje de Marcas <br>del surso FP de DAW</p>  
+    </div>
+    <ul class="redesSociales">
+        <li>
+            <a href="#"><ion-icon name="mail-outline"></ion-icon></a>
+        </li>
+        <li>
+            <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </li>
+        <li>
+            <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+        </li>
+    </ul>
+   </section>
+    
+</body>
+</html>
+
+
+
+
+
+
+
